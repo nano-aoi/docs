@@ -1,0 +1,8 @@
+# AliceScript Docs について
+このサイトにある記事はすべてWSOFTまたはZenによって記述されています。これらの記事に含まれる文章、画像、その他添付ファイル等は特に断りのない限りすべてWSOFTが著作権を保有しています。
+
+このサイトの旧バージョンである、AliceScriptWikiはMediaWikiを用いて作成されています。MediaWikiはThe Wikimedia Foundationによるものです。この際、ご紹介させていただきます。
+
+AliceScript/AliceSisterならびにその他WSOFTによるAliceScriptの実装はいずれもWSOFTによって開発された、WSOFTの著作物です。
+
+
