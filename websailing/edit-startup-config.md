@@ -19,20 +19,21 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 起動時の設定ファイルは、WSOFTConfig形式に準拠しているため、対応するバージョンのWSOFTConfing編集環境であれば閲覧・編集が可能です。この記事では、WebSailingで、起動時の設定を編集する方法を説明します。編集方法は、実行中のWebSailingの設定を編集するか、起動していないWebSailingの設定を編集するかで操作が変わります。
 
 ### 起動中のWebSailingの設定を編集する
-[起動オプションの設定](/media/1.jpg)
+![起動オプションの設定](media/1.jpg)
 1. 起動中のWebSailingの設定を編集するには、「メニュー」、「WebSailingを再起動」、「起動オプションの設定」へと進みます。
+
 ＊この時、誤って「WebSailingを再起動」をクリックしないように注意します。
-[または、スタートアップ時に使用される設定を編集します](/media/2.jpg)
+![または、スタートアップ時に使用される設定を編集します](media/2.jpg)
 1. WebSailing起動オプションが表示されたら、右下のリンク「または、スタートアップ時に使用される設定を編集します」をクリックします。
-[ConfigEditor](/media/3.jpg)
+![ConfigEditor](media/3.jpg)
 1. ConfigEditorが起動します。ここでは、Config/Application以下の設定を編集することができます。
 編集が終了したら保存た後ウィンドウを閉じ、WebSailing起動オプションで必要なオプションを設定した後、「起動」をクリックします。
 
 ### 起動していないWebSailingの設定を編集する
 1. 別のディレクトリにインストールされているWebSailingを起動して、[websailing://settings/tools/](websailing://settings/tools/)にアクセスします。
-[websailing://settings/tools/](4.jpg)
+![websailing://settings/tools/](media/4.jpg)
 1. 設定エディタをクリックして、ConfigEditorを起動します。
-[ConfigEditor](5.jpg)
+![ConfigEditor](media/5.jpg)
 1. 「ファイル」、「開く」をクリックして、対象のWebSailingのapp.wsconfファイルを選択します。
-[ConfigEditor](/media/3.jpg)
+![ConfigEditor](media/3.jpg)
 1. 設定を編集します。編集が終了したら「ファイル」、「保存」をクリックして設定ファイルを保存します。
