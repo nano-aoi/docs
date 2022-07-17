@@ -12,6 +12,9 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 |/Application/Startup/UserData/Directory|文字列型|ユーザーごとの作業フォルダとして使用されるディレクトリのパス
 |/Application/Startup/UserData/EnabbleSandbox|ビット型|起動時にサンドボックス機能を有効にするか|
 |/Application/Startup/UserData/EnableSafeMode|ビット型|起動時にセーフモードを有効にするか|
+|Application/Startup/UserData/EnableRecoveryMode|ビット型|回復モードを使用可能にするか|
+|Application/Startup/UserData/EnableCustomizedStartup|ビット型|カスタム起動を許可するか|
+|Application/Startup/UserData/EnableEmergensyMode|ビット型|エマージェンシーモードを使用可能にするか|
 |/Application/Startup/UserData/Location|文字列型|ユーザー設定ファイルへのパス
 |/Application/Log|文字列型|ログファイルのパス|
 
@@ -19,6 +22,8 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 起動時の設定ファイルは、WSOFTConfig形式に準拠しているため、対応するバージョンのWSOFTConfing編集環境であれば閲覧・編集が可能です。この記事では、WebSailingで、起動時の設定を編集する方法を説明します。編集方法は、実行中のWebSailingの設定を編集するか、起動していないWebSailingの設定を編集するかで操作が変わります。
 
 ### 起動中のWebSailingの設定を編集する
+＊起動オプションを使用するため、/Application/Startup/UserData/EnableCustomizedStartupがTrueであることが必要です。
+
 ![起動オプションの設定](media/1.jpg)
 1. 起動中のWebSailingの設定を編集するには、「メニュー」、「WebSailingを再起動」、「起動オプションの設定」へと進みます。
 
