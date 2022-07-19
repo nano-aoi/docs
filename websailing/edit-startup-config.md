@@ -22,12 +22,14 @@ WebSailing101以降のすべてのバージョンでWebSailingの起動をカス
 起動時の設定ファイルは、WSOFTConfig形式に準拠しているため、対応するバージョンのWSOFTConfing編集環境であれば閲覧・編集が可能です。この記事では、WebSailingで、起動時の設定を編集する方法を説明します。編集方法は、実行中のWebSailingの設定を編集するか、起動していないWebSailingの設定を編集するかで操作が変わります。
 
 ### 起動中のWebSailingの設定を編集する
-＊起動オプションを使用するため、/Application/Startup/UserData/EnableCustomizedStartupがTrueであることが必要です。
+> [!NOTE]
+> 起動オプションを使用するため、/Application/Startup/UserData/EnableCustomizedStartupがTrueであることが必要です。
 
 1. 起動中のWebSailingの設定を編集するには、「メニュー」、「WebSailingを再起動」、「起動オプションの設定」へと進みます。
 ![起動オプションの設定](media/1.jpg)
 
-＊この時、誤って「WebSailingを再起動」をクリックしないように注意します。
+> [!NOTE]
+> この時、誤って「WebSailingを再起動」をクリックしないように注意します。
 
 1. WebSailing起動オプションが表示されたら、右下のリンク「または、スタートアップ時に使用される設定を編集します」をクリックします。
 ![または、スタートアップ時に使用される設定を編集します](media/2.jpg)
