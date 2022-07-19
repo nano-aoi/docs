@@ -1,5 +1,5 @@
 # WSOFT-EULA
-## WSTube エンドユーザー利用規
+## WSTube エンドユーザー利用規約
 
 **Copylight (c) 2019 WSOFT All rights reserved.**
 
