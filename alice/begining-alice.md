@@ -2,7 +2,7 @@
 この記事では、AliceScriptの動作環境を構築し、お使いの任意のエディタとAliceScriptADKを使用してAliceScriptコンソールアプリケーションを作成して実行する方法を示します。
 ## はじめに
 AliceScriptは、軽量な.NETエコシステム上で動作するインタプリンタ型のプログラミング言語です。AliceScriptはC#やPythonをルーツとしているため、C、C#、JavaScript、Pyhton、PHPのプログラマーであればすぐに使いこなすことができます。
-AliceScriptについて詳しく知るには、[[AliceScriptのツアー]]を参照してください。
+AliceScriptについて詳しく知るには、[AliceScriptのツアー](welcome.md)を参照してください。
 
 この記事では、まず最初にAliceScriptで開発を始めるために必要な作業を確認します。(すでにAliceScriptを使用している場合はこのセクションを飛ばしても構いません)。
 次に、AliceScriptを使って簡単なコンソールアプリケーションを例として作成し、AliceScriptの基本的な事項を解説します。
@@ -38,7 +38,7 @@ iceimport("TestPkg.zip");
 ```
 そうすると次のような出力結果となります。(実行環境や使用バージョンによっては異なる場合があります)（画像はAliceSisterRC2のものです)
 
-[[ファイル:Testprogram out.png|750px|frameless|border|]]
+[実行結果](TestProgram-Out.png)
 
 
 期待通りの動作をしない場合パーミッションの設定が適切でない可能性があります。設定からTestPkg.zip、Alice.dll又はAlice.Runtime.dllのアクセス権の設定を見直してください。
