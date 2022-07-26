@@ -38,7 +38,7 @@ iceimport("TestPkg.zip");
 ```
 そうすると次のような出力結果となります。(実行環境や使用バージョンによっては異なる場合があります)（画像はAliceSisterRC2のものです)
 
-![実行結果](TestProgram-Out.png)
+![実行結果](media/TestProgram-Out.png)
 
 
 期待通りの動作をしない場合パーミッションの設定が適切でない可能性があります。設定からTestPkg.zip、Alice.dll又はAlice.Runtime.dllのアクセス権の設定を見直してください。
